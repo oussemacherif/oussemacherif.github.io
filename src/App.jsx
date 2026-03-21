@@ -10,14 +10,13 @@ export default function App() {
       <Hero />
       
       {/* ── Example section below the hero ── */}
-      <section className="flex min-h-screen items-center justify-center bg-black">
+      {/* <section className="flex min-h-screen items-center justify-center bg-black">
         <p
           className="text-white/30 text-lg tracking-widest uppercase"
           style={{ fontFamily: "'DM Sans', sans-serif" }}
         >
-          — Your Content Continues Here —
         </p>
-      </section>
+      </section> */}
       <Skills/>
       <Experience/>
       {/* <Experience1/> */}
