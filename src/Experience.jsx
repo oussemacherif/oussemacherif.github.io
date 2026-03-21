@@ -236,11 +236,11 @@ export default function Experience() {
                         transition: { duration: 0.3 },
                       }}
                     >
-                      {/* Top color bar */}
+                      
                       <div className="h-[3px] w-full" style={{ background: `linear-gradient(90deg, ${exp.color}, ${exp.color}00)` }} />
 
                       <div className="p-7">
-                        {/* Top row — period + type badge */}
+                       
                         <div className="flex items-center justify-between mb-6">
                           <div className="flex items-center gap-2">
                             <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: exp.color }} />
@@ -260,7 +260,7 @@ export default function Experience() {
                           </span>
                         </div>
 
-                        {/* Role */}
+                    
                         <h3 className="font-black uppercase leading-none text-white mb-2"
                           style={{
                             fontFamily: "'Bebas Neue', Impact, sans-serif",
@@ -271,7 +271,6 @@ export default function Experience() {
                           {exp.role}
                         </h3>
 
-                        {/* Company + location row */}
                         <div className="flex items-center gap-2 mb-6 pb-5"
                           style={{ borderBottom: `1px solid ${exp.color}15` }}>
                           <span className="text-sm font-semibold" style={{ fontFamily: "'DM Sans', sans-serif", color: exp.color }}>
@@ -283,7 +282,7 @@ export default function Experience() {
                           </span>
                         </div>
 
-                        {/* Bullets */}
+                   
                         <ul className="flex flex-col gap-3 mb-6">
                           {exp.bullets.map((b, j) => (
                             <li key={j} className="flex items-start gap-3 text-sm leading-relaxed"
@@ -294,7 +293,7 @@ export default function Experience() {
                           ))}
                         </ul>
 
-                        {/* Tags with brand-colored icons */}
+                     
                         <div className="flex flex-wrap gap-2">
                           {exp.tags.map((tag) => {
                             const brandColor = BRAND_COLORS[tag] || exp.color;

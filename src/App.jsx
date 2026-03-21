@@ -19,7 +19,6 @@ export default function App() {
       </section> */}
       <Skills/>
       <Experience/>
-      {/* <Experience1/> */}
       <Contact/>
     </main>
   );
