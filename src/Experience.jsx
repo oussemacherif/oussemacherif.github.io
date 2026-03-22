@@ -198,7 +198,7 @@ export default function Experience() {
               </span>
             </motion.h2>
             <motion.p variants={headerVariants}
-              className="text-white/20 text-xs pb-2 hidden sm:block"
+              className="text-white/20 text-lg pb-2 hidden sm:block"
               style={{ fontFamily: "'DM Sans', sans-serif" }}
             >
               {EXPERIENCES.length} positions · 2+ years

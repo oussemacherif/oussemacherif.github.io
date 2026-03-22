@@ -1,7 +1,9 @@
+import Education from "../../Education";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import Experience1 from "./Experience1";
 import Hero from "./Hero";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
       </section> */}
       <Skills/>
       <Experience/>
+      <Projects/>
+      {/* <Education/> */}
       <Contact/>
     </main>
   );
