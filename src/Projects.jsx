@@ -153,7 +153,7 @@ export default function Projects() {
           <div
             className="relative w-full flex justify-center"
             style={{
-              height: spread ? "680px" : "380px",
+              height: spread ? "780px" : "380px",
               transition: "height 0.65s cubic-bezier(0.16,1,0.3,1)",
               cursor: spread ? "default" : "pointer",
             }}
@@ -166,7 +166,7 @@ export default function Projects() {
               const isActive = activeCard === i;
 
               const gx = startX + grid.col * (CARD_W + CARD_GAP);
-              const gy = grid.row * (spread ? 320 : 0);
+              const gy = grid.row * (spread ? 380 : 0);
 
               return (
                 <motion.div
