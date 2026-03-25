@@ -66,7 +66,7 @@ export default function Education() {
   const certInView   = useInView(certRef,   { once: true, amount: 0.1 });
 
   return (
-    <section className="relative bg-[#080808] overflow-hidden">
+    <section id="education"className="relative bg-[#080808] overflow-hidden">
 
       {/* ── Grain ── */}
       <div className="absolute inset-0 opacity-[0.18] pointer-events-none z-0"
