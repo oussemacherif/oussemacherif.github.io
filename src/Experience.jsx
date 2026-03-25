@@ -158,7 +158,7 @@ export default function Experience() {
   const gridInView   = useInView(gridRef,   { once: true, amount: 0.05 });
 
   return (
-    <section className="relative bg-[#080808] overflow-hidden py-28 px-6 md:px-16">
+    <section id="experience" className="relative bg-[#080808] overflow-hidden py-28 px-6 md:px-16">
 
       {/* ── Grain ── */}
       <div className="absolute inset-0 opacity-[0.18] pointer-events-none z-0"

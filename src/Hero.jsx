@@ -65,7 +65,7 @@ export default function Hero() {
      * Outer container is 300 vh tall so the user scrolls through three
      * "scenes". The sticky inner div pins the visual to the viewport.
      */
-    <div ref={containerRef} className="relative" style={{ height: "300vh" }}>
+    <div ref={containerRef} id="hero" className="relative" style={{ height: "300vh" }}>
 
       {/* ── STICKY VIEWPORT ── */}
       <div className="sticky top-0 h-screen w-full overflow-hidden bg-black">
@@ -213,13 +213,13 @@ export default function Hero() {
             style={{ fontFamily: "'DM Sans', sans-serif" }}
           >
             I craft digital experiences that sit at the intersection of clean
-            engineering and bold design. Five years building products people
+            engineering and bold design. 2 years building products people
             actually love — from early-stage startups to scale.
           </p>
 
           {/* Divider + stat row */}
           <div className="mt-8 flex items-center gap-10">
-            {[["2+", "Years Exp."], ["10+", "Projects"], ["", "Happy Clients"]].map(([num, label]) => (
+            {[["2+", "Years Exp."], ["10+", "Projects"], ["100%", "Passion"]].map(([num, label]) => (
               <div key={label} className="flex flex-col items-center gap-1">
                 <span
                   className="text-white font-black"
@@ -271,7 +271,7 @@ export default function Hero() {
 
           {/* CTA button */}
           <motion.a
-            href="mailto:hello@yourname.com"  // ← Replace with your email
+            href="mailto:ousseemacherif@gmail.com"  
             className="mt-10 inline-flex items-center gap-3 rounded-full border border-white/30 px-8 py-3 text-sm text-white/80 backdrop-blur-sm hover:bg-white/10 transition-colors"
             style={{ fontFamily: "'DM Sans', sans-serif", letterSpacing: "0.1em" }}
             whileHover={{ scale: 1.04 }}

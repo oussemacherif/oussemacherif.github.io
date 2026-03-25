@@ -1,12 +1,16 @@
+import About from "./About";
 import Contact from "./Contact";
+import Education from "./Education";
 import Experience from "./Experience";
 import Hero from "./Hero";
+import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function App() {
   return (
     <main className="bg-black">
+      <Navbar/>
       <Hero />
       
       {/* ── Example section below the hero ── */}
@@ -17,10 +21,11 @@ export default function App() {
         >
         </p>
       </section> */}
+      {/* <About/> */}
       <Skills/>
-      <Experience/>
       <Projects/>
-      {/* <Education/> */}
+      <Experience/>
+      <Education/>
       <Contact/>
     </main>
   );
