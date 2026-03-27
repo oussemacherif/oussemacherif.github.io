@@ -74,9 +74,7 @@ export default function Education() {
       />
       <div className="absolute top-0 inset-x-0 h-px bg-white/[0.07]" />
 
-      {/* ══════════════════════════════════════════
-          EDUCATION PART
-      ══════════════════════════════════════════ */}
+   
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-16 pt-28 pb-24">
 
         {/* Ghost watermark */}

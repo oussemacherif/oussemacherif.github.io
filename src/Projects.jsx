@@ -5,6 +5,7 @@ const ease = [0.16, 1, 0.3, 1];
 
 import smartHands from "./assets/smart-hands.png"
 import massilya from "./assets/massilya.jpg"
+import maghrebEco from "./assets/image.png"
 
 // ── PROJECTS DATA ─────────────────────────────────────────────────────────────
 const PROJECTS = [
@@ -21,14 +22,14 @@ const PROJECTS = [
   },
   {
     number: "02",
-    title: "PMS360 / Project Management System",
-    type: "Team Lead / Full Stack Developer",
+    title: "Maghreb Eco",
+    type: "Full Stack Developer",
     year: "2025",
     color: "#FF3E00",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80",
-    desc: "A centralized PMS with task management and workload distribution, reflecting leadership experience in developer guidance and project tracking[cite: 43, 48].",
-    tags: ["React", "NestJS", "Prisma", "Socket.io"],
-    link: "#",
+    image: maghrebEco,
+    desc: "Maghreb Eco is a mobile application powered by Artificial Intelligence that brings together innovation, ecology, and community across the Arab Maghreb. It’s designed to inspire environmental awareness, connect eco-enthusiasts, and empower individuals to take real action for a sustainable future.",
+    tags: ["React Native","TypeScript", "NestJS", "Prisma", "Socket.io"],
+    link: "https://github.com/oussemacherif/MaghrebEco",
   },
   {
     number: "03",
@@ -43,7 +44,18 @@ const PROJECTS = [
   },
   {
     number: "04",
-    title: "Education Platform",
+    title: "PMS360 / Project Management System",
+    type: "Team Lead / Full Stack Developer",
+    year: "2025",
+    color: "#FF3E00",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80",
+    desc: "A centralized PMS with task management and workload distribution, reflecting leadership experience in developer guidance and project tracking[cite: 43, 48].",
+    tags: ["React", "NestJS", "Prisma", "Socket.io"],
+    link: "#",
+  },
+  {
+    number: "05",
+    title: "E-Learning Platform",
     type: "Full Stack / Team Lead",
     year: "2025",
     color: "#BB4FFF",
@@ -53,7 +65,7 @@ const PROJECTS = [
     link: "#",
   },
   {
-    number: "05",
+    number: "06",
     title: "Smart Hands",
     type: "Mobile / Accessibility",
     year: "2025",
@@ -64,8 +76,8 @@ const PROJECTS = [
     link: "https://github.com/oussemacherif/Smart-Hands",
   },
   {
-    number: "06",
-    title: "Enterprise ERP System",
+    number: "07",
+    title: "Jalyss ERP System",
     type: "Microservices / Team Lead / Full Stack Developer",
     year: "2024",
     color: "#E0234E",
@@ -75,8 +87,8 @@ const PROJECTS = [
     link: "#",
   },
   {
-    number: "07",
-    title: "Pets App",
+    number: "08",
+    title: "Pita (Pets App)",
     type: "Mobile Application",
     year: "2024",
     color: "#FF9F1C",
@@ -86,7 +98,7 @@ const PROJECTS = [
     link: "#",
   },
   {
-    number: "08",
+    number: "09",
     title: "Hannibal V2 E-commerce",
     type: "Next.js / Scrum Master",
     year: "2023",
